@@ -6,12 +6,13 @@ In Class Assignment: 3
 Problem Statement:  Calculate amount of points from a ski jump based on the type of hill and speed
 Data In: speed, type of hill
 Data Out:  points earned, distance
-Credits: Replit from CS 151 for refrence
+Credits: Lab3 from CS 151 for refrence
  */
 
 import java.util.Scanner;
 class HelloWorld {
     public static void main(String[] args) {
+        //make a new scanner object called in
         Scanner in = new Scanner(System.in);
 
         //get input for hill type
@@ -50,7 +51,7 @@ class HelloWorld {
         }
 
         //output distance and points
-        System.out.println("You went "+ distance + " far and got "+ points+  "points!");
+        System.out.println("You went "+ distance + " far and got "+ points+  " points!");
 
 
 
