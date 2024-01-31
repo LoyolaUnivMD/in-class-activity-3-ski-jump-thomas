@@ -1,0 +1,22 @@
+1. Make a new scanner object called in
+2. output "Is the hill a normal or large hill? "
+3. set hill_type to the input
+4. set height as an int = 46
+5. set points_per_meter as a double = 2
+6. set par as an int = 90
+7. if hill_type == "large"
+    i. set height to 70
+    ii. set points_per_meter = 1.8
+    iii. set par = 120
+8. output "What was the speed at the end of the ramp? "
+9. make a new int called speed and set it to the input
+10. set double time = 2*height divided by 9.8, then square rooted
+11. set double distance = speed * time
+12. set double points = 60 + (distance - par)*points_per_meter
+13. if points >= 61
+    i. output "Great job for doing better than par!"
+14. else if points < 10
+    i. output "What happened?"
+15. else
+    i. output "Sorry you didn’t go very far"
+16. output "You went "+ distance + "far and got "+ points+  "points!"
